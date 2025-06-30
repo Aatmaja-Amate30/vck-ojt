@@ -2,10 +2,10 @@ import Header from "../components/Header/Header";
 
 const ContactPage = () => {
     return(
-        <div>
+        <div className="root">
             <Header/>
-            
-            <h1>Contact us</h1>
+            <div className="header3">
+            <h1 className="b1">Contact us</h1>
             <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
             <h2>General Enquiries</h2>
             <p><b> Vivekanand College Main Campus </b></p>
@@ -39,6 +39,7 @@ Email: studentsupport@vivekanandcollege.edu</p> <br/>
 <hr/>
 <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
             
+        </div>
         </div>
     )
 }
